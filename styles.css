@@ -26,6 +26,10 @@ button {
   align-items: center;
 }
 
+.main__content {
+  width: 100%;
+}
+
 /*Sidebar*/
 
 .sidebar {
@@ -87,4 +91,68 @@ button {
 
 .italic-span {
   font-style: italic;
+}
+
+/*Form*/
+.form {
+  width: 100%;
+  margin-top: 3em;
+}
+
+.form__top {
+  padding: 0.5em 0 0.5em 3em;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form__title {
+  font-size: 1.25rem;
+  margin-bottom: 1em;
+}
+
+.form__input-section {
+  display: flex;
+  gap: 3em;
+  font-size: 0.75rem;
+  margin-bottom: 10px;
+}
+
+.form__input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  border-radius: 3px;
+  padding: 3px 5px;
+  outline: none;
+}
+
+input:focus {
+  border-color: blue;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+}
+
+input:user-invalid {
+  border-color: red;
+}
+
+.form__bottom {
+  margin: 2em 0 0 3em;
+}
+
+.form__bottom button {
+  background-color: #596d48;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 2em;
+}
+
+.log-in-link {
+  color: #596d48;
+  text-decoration: none;
+  font-weight: 700;
 }
