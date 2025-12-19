@@ -72,3 +72,19 @@ button {
 .sidebar__attribution a {
   color: rgb(236, 236, 236);
 }
+
+/*Call To Action*/
+
+.call-to-action__content {
+  width: 500px;
+  padding-left: 3em;
+}
+
+.call-to-action__description {
+  font-weight: 700;
+  margin-bottom: 1.5em;
+}
+
+.italic-span {
+  font-style: italic;
+}
