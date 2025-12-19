@@ -18,3 +18,10 @@ button {
   margin: 0;
   padding: 0;
 }
+
+/*Main*/
+
+.main {
+  display: flex;
+  align-items: center;
+}
